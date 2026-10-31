@@ -5,7 +5,7 @@ description: "Use when building or upgrading a code-made Three.js 2.5D clay anim
 
 # Clay film pack workflow (Three.js, deterministic, local-only)
 
-Reference project: `~/Downloads/Coc_Kien_Troi_2_5D_Full_Codex_Pack` (not a git repo). Read `CODEX_TASK.md`, `AGENTS.md`, `docs/ACTOR_BIBLE.md`, `docs/VISUAL_STYLE_2_5D.md` first; they are the authority. Current gaps live in the pack's `docs/OPEN_ITEMS.md`.
+Reference project: `~/Downloads/Coc_Kien_Troi_2_5D_Full_Codex_Pack` (published at https://github.com/buianhtai/coc-kien-troi) (not a git repo). Read `CODEX_TASK.md`, `AGENTS.md`, `docs/ACTOR_BIBLE.md`, `docs/VISUAL_STYLE_2_5D.md` first; they are the authority. Current gaps live in the pack's `docs/OPEN_ITEMS.md`.
 
 ## Bundled resources (in this skill's folder)
 - `scripts/render_all.sh <pack_root> [--full]`: geometry test, proof+pilot, optional full render, validators.
