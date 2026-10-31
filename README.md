@@ -1,12 +1,18 @@
 # agent-skills
-Reusable agent skills for building code-made Three.js 2.5D clay animated films.
+Reusable agent skills. Each skill is a flat folder at the repo root containing a `SKILL.md`, so cloning this repo into a skills directory exposes every skill.
 
-- `clay-film-pack`: workflow, render/verify scripts, fur helper sample, eval checklist
-- `clay-film-rigs`: SDF-sculpted actor rigs, fur strands, mouth/eye rigs
-- `clay-film-scenes`: world environments, shots, ground litter
-- `clay-film-voice`: VoiceStudio Vietnamese voiceover pipeline
+## Clay film (code-made Three.js 2.5D animation)
+Reference project: https://github.com/buianhtai/coc-kien-troi
 
-Each folder holds a `SKILL.md`. Copy folders into your agent's skills directory. Paths assume a pack laid out like the reference clay film project (`clay/`, `scripts/`, `audio/voicestudio/`).
+| Skill | Use when |
+|---|---|
+| [`clay-film-pack`](clay-film-pack/SKILL.md) | Running the whole pipeline: render, proof/pilot, validators, stills, master promotion. Bundles scripts, fur sample, references, eval checklist. |
+| [`clay-film-rigs`](clay-film-rigs/SKILL.md) | Sculpting or detailing actors: SDF sculpt, rig contract, fur strands, mouth and eye rigs. |
+| [`clay-film-scenes`](clay-film-scenes/SKILL.md) | Environments, cameras, shot timing, ground litter in `world.js` / `film.js`. |
+| [`clay-film-voice`](clay-film-voice/SKILL.md) | VoiceStudio Vietnamese voiceover, voice cast, WAV lines, mouth cues. |
 
-## Reference project
-The film these skills were built from: https://github.com/buianhtai/coc-kien-troi
+## Install
+Copy or symlink the skill folders you want into your agent's skills directory (for example `~/.claude/skills/`).
+
+## Adding skills
+Keep new skill folders flat at the root, prefix related ones (`<domain>-<name>`), and add a row to the table above.
